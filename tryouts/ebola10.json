@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "name": "allafrica.com",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "sequencing",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "habitability",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "raf northolt",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "lagos",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "ebola virus disease",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "polymerase chain reaction",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "triage",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "epidemic",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "gartnavel general hospital",
+      "group": 1,
+      "weight": 1
+    },
+    {
+      "name": "responses to the ebola virus epidemic in west africa",
+      "group": 1,
+      "weight": 1
+    }
+  ],
+  "links": [
+    {
+      "source": 4,
+      "target": 0,
+      "value": 3,
+      "weight": 1
+    },
+    {
+      "source": 5,
+      "target": 9,
+      "value": 3,
+      "weight": 1
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "value": 3,
+      "weight": 1
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "value": 3,
+      "weight": 1
+    },
+    {
+      "source": 6,
+      "target": 1,
+      "value": 3,
+      "weight": 1
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "value": 3,
+      "weight": 1
+    },
+    {
+      "source": 9,
+      "target": 6,
+      "value": 3,
+      "weight": 1
+    }
+  ]
+}
