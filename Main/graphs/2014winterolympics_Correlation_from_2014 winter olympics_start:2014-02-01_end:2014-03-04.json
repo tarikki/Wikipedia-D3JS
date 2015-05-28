@@ -1,0 +1,431 @@
+{
+  "nodes": [
+    {
+      "name": "khokhloma",
+      "group": 1,
+      "correlation": 0.7614855500750323
+    },
+    {
+      "name": "2022 winter olympics",
+      "group": 1,
+      "correlation": 0.5583121338557551
+    },
+    {
+      "name": "luge",
+      "group": 1,
+      "correlation": 0.6319977552506674
+    },
+    {
+      "name": "sportfive",
+      "group": 1,
+      "correlation": 0.7897813747036047
+    },
+    {
+      "name": "ski jumping",
+      "group": 1,
+      "correlation": 0.49032681595832445
+    },
+    {
+      "name": "figure skating at the 2014 winter olympics",
+      "group": 1,
+      "correlation": 0.3939394611450001
+    },
+    {
+      "name": "sochi 2014 olympic and paralympic organizing committee",
+      "group": 1,
+      "correlation": 0.5861716701581243
+    },
+    {
+      "name": "sochi",
+      "group": 1,
+      "correlation": 0.8445866138051774
+    },
+    {
+      "name": "tuapse",
+      "group": 1,
+      "correlation": 0.5294720085744126
+    },
+    {
+      "name": "2010 winter olympics",
+      "group": 1,
+      "correlation": 0.6850216946759585
+    },
+    {
+      "name": "fisht olympic stadium",
+      "group": 1,
+      "correlation": 0.7138854170778784
+    },
+    {
+      "name": "curling at the 2014 winter olympics",
+      "group": 1,
+      "correlation": 0.3734300419159306
+    },
+    {
+      "name": "ice hockey at the 2014 winter olympics",
+      "group": 1,
+      "correlation": 0.17372244619848828
+    },
+    {
+      "name": "google maps",
+      "group": 1,
+      "correlation": 0.5294020847611814
+    },
+    {
+      "name": "vladimir putin",
+      "group": 1,
+      "correlation": 0.35320418804001447
+    },
+    {
+      "name": "figure skating",
+      "group": 1,
+      "correlation": 0.5732322512214043
+    },
+    {
+      "name": "gelendzhik",
+      "group": 1,
+      "correlation": 0.4461080370999027
+    },
+    {
+      "name": "ski-orienteering",
+      "group": 1,
+      "correlation": 0.875563372593646
+    },
+    {
+      "name": "circassians",
+      "group": 1,
+      "correlation": 0.7265126193660324
+    },
+    {
+      "name": "utc+04:00",
+      "group": 1,
+      "correlation": 0.6287920097148839
+    },
+    {
+      "name": "slopestyle",
+      "group": 1,
+      "correlation": 0.7323059062325851
+    },
+    {
+      "name": "2014 winter olympics",
+      "group": 0,
+      "correlation": 1.0
+    },
+    {
+      "name": "snowboarding",
+      "group": 1,
+      "correlation": 0.6855394090640208
+    },
+    {
+      "name": "russia",
+      "group": 1,
+      "correlation": 0.23999466091582902
+    },
+    {
+      "name": "biathlon",
+      "group": 1,
+      "correlation": 0.7193217785153653
+    },
+    {
+      "name": "nbc",
+      "group": 1,
+      "correlation": 0.7088140111306263
+    },
+    {
+      "name": "lgbt",
+      "group": 1,
+      "correlation": 0.4948838361558975
+    },
+    {
+      "name": "biathlon at the 2014 winter olympics",
+      "group": 1,
+      "correlation": 0.3804466188793123
+    },
+    {
+      "name": "estosadok",
+      "group": 1,
+      "correlation": 0.882087587169392
+    },
+    {
+      "name": "winter olympic games",
+      "group": 1,
+      "correlation": 0.8151853999833947
+    },
+    {
+      "name": "skiing",
+      "group": 1,
+      "correlation": 0.7154981874873182
+    },
+    {
+      "name": "krasnodar",
+      "group": 1,
+      "correlation": 0.43057331800294996
+    },
+    {
+      "name": "bandy",
+      "group": 1,
+      "correlation": 0.4445812844290908
+    },
+    {
+      "name": "luge at the 2014 winter olympics",
+      "group": 1,
+      "correlation": 0.3775701633004907
+    },
+    {
+      "name": "irkutsk",
+      "group": 1,
+      "correlation": 0.08083862316052079
+    },
+    {
+      "name": "maria sharapova",
+      "group": 1,
+      "correlation": 0.49388399240190123
+    },
+    {
+      "name": "2018 winter olympics",
+      "group": 1,
+      "correlation": 0.5125491632518221
+    },
+    {
+      "name": "dzhubga",
+      "group": 1,
+      "correlation": 0.33905524821480276
+    },
+    {
+      "name": "zoich",
+      "group": 1,
+      "correlation": 0.7505614078358778
+    },
+    {
+      "name": "2014 winter olympics opening ceremony",
+      "group": 1,
+      "correlation": 0.7001834753197482
+    },
+    {
+      "name": "thomas bach",
+      "group": 1,
+      "correlation": 0.4582267092986
+    }
+  ],
+  "links": [
+    {
+      "source": 21,
+      "target": 9,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 21,
+      "target": 2,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 21,
+      "target": 15,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 17,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 21,
+      "target": 24,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 15,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 0,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 24,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 11,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 14,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 38,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 10,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 40,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 23,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 21,
+      "target": 4,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 31,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 26,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 12,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 21,
+      "target": 30,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 19,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 21,
+      "target": 36,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 39,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 6,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 16,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 32,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 27,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 2,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 21,
+      "target": 33,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 28,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 21,
+      "target": 1,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 7,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 21,
+      "target": 5,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 35,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 18,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 37,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 29,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 21,
+      "target": 3,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 25,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 4,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 21,
+      "target": 8,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 13,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 34,
+      "correlationBin": 0.0
+    }
+  ]
+}

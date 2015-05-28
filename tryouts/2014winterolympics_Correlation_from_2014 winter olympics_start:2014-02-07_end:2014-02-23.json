@@ -1,0 +1,361 @@
+{
+  "nodes": [
+    {
+      "name": "khokhloma",
+      "group": 1,
+      "correlation": 0.8144778369306548
+    },
+    {
+      "name": "2022 winter olympics",
+      "group": 1,
+      "correlation": 0.32375271016089324
+    },
+    {
+      "name": "sportfive",
+      "group": 1,
+      "correlation": 0.8324810913797319
+    },
+    {
+      "name": "ski jumping",
+      "group": 1,
+      "correlation": 0.5104634608445493
+    },
+    {
+      "name": "sochi",
+      "group": 1,
+      "correlation": 0.8369087089076319
+    },
+    {
+      "name": "tuapse",
+      "group": 1,
+      "correlation": 0.8177076756255182
+    },
+    {
+      "name": "2010 winter olympics",
+      "group": 1,
+      "correlation": 0.4878006125914147
+    },
+    {
+      "name": "fisht olympic stadium",
+      "group": 1,
+      "correlation": 0.7870646756153207
+    },
+    {
+      "name": "google maps",
+      "group": 1,
+      "correlation": 0.7175763517423653
+    },
+    {
+      "name": "vladimir putin",
+      "group": 1,
+      "correlation": 0.7554806339661474
+    },
+    {
+      "name": "gelendzhik",
+      "group": 1,
+      "correlation": 0.8131354650974657
+    },
+    {
+      "name": "ski-orienteering",
+      "group": 1,
+      "correlation": 0.7463281412844536
+    },
+    {
+      "name": "circassians",
+      "group": 1,
+      "correlation": 0.8978544094912165
+    },
+    {
+      "name": "utc+04:00",
+      "group": 1,
+      "correlation": 0.6466069552487838
+    },
+    {
+      "name": "slopestyle",
+      "group": 1,
+      "correlation": 0.5960841751629543
+    },
+    {
+      "name": "2014 winter olympics",
+      "group": 0,
+      "correlation": 1.0
+    },
+    {
+      "name": "snowboarding",
+      "group": 1,
+      "correlation": 0.37815223580786345
+    },
+    {
+      "name": "russia",
+      "group": 1,
+      "correlation": 0.7843615845706435
+    },
+    {
+      "name": "biathlon",
+      "group": 1,
+      "correlation": 0.5304380305258681
+    },
+    {
+      "name": "nbc",
+      "group": 1,
+      "correlation": 0.5692667155732415
+    },
+    {
+      "name": "lgbt",
+      "group": 1,
+      "correlation": 0.4590660006672627
+    },
+    {
+      "name": "estosadok",
+      "group": 1,
+      "correlation": 0.8225244663362359
+    },
+    {
+      "name": "anapa",
+      "group": 1,
+      "correlation": 0.7223864544836643
+    },
+    {
+      "name": "winter olympic games",
+      "group": 1,
+      "correlation": 0.6501374588704524
+    },
+    {
+      "name": "skiing",
+      "group": 1,
+      "correlation": 0.3098375129337917
+    },
+    {
+      "name": "krasnodar",
+      "group": 1,
+      "correlation": 0.8669257311674238
+    },
+    {
+      "name": "bandy",
+      "group": 1,
+      "correlation": 0.32723194988440746
+    },
+    {
+      "name": "novorossiysk",
+      "group": 1,
+      "correlation": 0.3077363136258538
+    },
+    {
+      "name": "maria sharapova",
+      "group": 1,
+      "correlation": 0.5874910001065222
+    },
+    {
+      "name": "2018 winter olympics",
+      "group": 1,
+      "correlation": 0.6567522954839683
+    },
+    {
+      "name": "dzhubga",
+      "group": 1,
+      "correlation": 0.3922320152767111
+    },
+    {
+      "name": "zoich",
+      "group": 1,
+      "correlation": 0.8253833206108876
+    },
+    {
+      "name": "kaliningrad",
+      "group": 1,
+      "correlation": 0.5266374733506421
+    },
+    {
+      "name": "2014 winter olympics opening ceremony",
+      "group": 1,
+      "correlation": 0.7527673701099903
+    },
+    {
+      "name": "thomas bach",
+      "group": 1,
+      "correlation": 0.5552304464263018
+    }
+  ],
+  "links": [
+    {
+      "source": 15,
+      "target": 6,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 15,
+      "target": 11,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 15,
+      "target": 32,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 18,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 0,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 18,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 9,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 15,
+      "target": 31,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 7,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 15,
+      "target": 34,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 17,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 15,
+      "target": 27,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 15,
+      "target": 3,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 25,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 20,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 15,
+      "target": 24,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 15,
+      "target": 29,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 15,
+      "target": 33,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 15,
+      "target": 10,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 26,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 15,
+      "target": 21,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 22,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 15,
+      "target": 1,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 15,
+      "target": 4,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 28,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 14,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 12,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 30,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 15,
+      "target": 23,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 15,
+      "target": 2,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 19,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 3,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 15,
+      "target": 16,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 15,
+      "target": 5,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 15,
+      "target": 8,
+      "correlationBin": 7.0
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "nodes": [
+    {
+      "name": "boeing 777",
+      "group": 1,
+      "correlation": 0.5981870173031055
+    },
+    {
+      "name": "bbc",
+      "group": 1,
+      "correlation": 0.3132092085825268
+    },
+    {
+      "name": "dnipropetrovsk",
+      "group": 1,
+      "correlation": 0.36113042992156047
+    },
+    {
+      "name": "hilversum",
+      "group": 1,
+      "correlation": 0.3922564977936623
+    },
+    {
+      "name": "donetsk",
+      "group": 1,
+      "correlation": 0.7839330332229124
+    },
+    {
+      "name": "defection",
+      "group": 1,
+      "correlation": 0.0733122065748174
+    },
+    {
+      "name": "vladimir putin",
+      "group": 1,
+      "correlation": 0.3034254411413399
+    },
+    {
+      "name": "kiev",
+      "group": 1,
+      "correlation": 0.8056489968829927
+    },
+    {
+      "name": "torez",
+      "group": 1,
+      "correlation": 0.7285162622274988
+    },
+    {
+      "name": "snizhne",
+      "group": 1,
+      "correlation": 0.7143343855024028
+    },
+    {
+      "name": "kharkiv",
+      "group": 1,
+      "correlation": 0.5049049644284845
+    },
+    {
+      "name": "nu.nl",
+      "group": 1,
+      "correlation": 0.586670870496314
+    },
+    {
+      "name": "fuselage",
+      "group": 1,
+      "correlation": 0.7666689548558441
+    },
+    {
+      "name": "klm",
+      "group": 1,
+      "correlation": 0.8380632816029162
+    },
+    {
+      "name": "seremban",
+      "group": 1,
+      "correlation": 0.32046087616423835
+    },
+    {
+      "name": "flightradar24",
+      "group": 1,
+      "correlation": 0.7953492839108839
+    },
+    {
+      "name": "buk missile system",
+      "group": 1,
+      "correlation": 0.6317509521413108
+    },
+    {
+      "name": "bernama",
+      "group": 1,
+      "correlation": 0.5040953747003403
+    },
+    {
+      "name": "singapore",
+      "group": 1,
+      "correlation": 0.1757617579812449
+    },
+    {
+      "name": "forbes",
+      "group": 1,
+      "correlation": 0.4698326749516773
+    },
+    {
+      "name": "reuters",
+      "group": 1,
+      "correlation": 0.6266208484066214
+    },
+    {
+      "name": "malaysia airlines flight 17",
+      "group": 0,
+      "correlation": 1.0000000000000002
+    },
+    {
+      "name": "joep lange",
+      "group": 1,
+      "correlation": 0.706823047466103
+    },
+    {
+      "name": "amsterdam",
+      "group": 1,
+      "correlation": 0.7251603612168632
+    },
+    {
+      "name": "lufthansa",
+      "group": 1,
+      "correlation": 0.7136567055692523
+    },
+    {
+      "name": "malaysia airlines",
+      "group": 1,
+      "correlation": 0.7051404015863657
+    },
+    {
+      "name": "half-mast",
+      "group": 1,
+      "correlation": 0.791914342973296
+    },
+    {
+      "name": "warhead",
+      "group": 1,
+      "correlation": 0.7151042340774029
+    },
+    {
+      "name": "duma",
+      "group": 1,
+      "correlation": 0.6590424685663068
+    },
+    {
+      "name": "aeroflot",
+      "group": 1,
+      "correlation": 0.7121256759324401
+    },
+    {
+      "name": "malaysia airlines flight 370",
+      "group": 1,
+      "correlation": 0.8129805739255173
+    }
+  ],
+  "links": [
+    {
+      "source": 21,
+      "target": 19,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 21,
+      "target": 6,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 1,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 2,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 17,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 14,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 13,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 21,
+      "target": 3,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 21,
+      "target": 25,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 27,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 7,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 21,
+      "target": 5,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 21,
+      "target": 10,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 9,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 26,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 11,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 23,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 4,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 0,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 21,
+      "target": 12,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 8,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 15,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 24,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 28,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 21,
+      "target": 29,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 21,
+      "target": 30,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 21,
+      "target": 18,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 21,
+      "target": 16,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "correlationBin": 6.0
+    }
+  ]
+}

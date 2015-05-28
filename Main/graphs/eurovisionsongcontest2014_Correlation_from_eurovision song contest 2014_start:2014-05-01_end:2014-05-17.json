@@ -1,0 +1,486 @@
+{
+  "nodes": [
+    {
+      "name": "alsou",
+      "group": 1,
+      "correlation": 0.8572212012228025
+    },
+    {
+      "name": "sebalter",
+      "group": 1,
+      "correlation": 0.9131403008510527
+    },
+    {
+      "name": "elaiza",
+      "group": 1,
+      "correlation": 0.891302038094385
+    },
+    {
+      "name": "tvr1",
+      "group": 1,
+      "correlation": 0.660521831912276
+    },
+    {
+      "name": "fredericia",
+      "group": 1,
+      "correlation": 0.5947478670157675
+    },
+    {
+      "name": "aarzemnieki",
+      "group": 1,
+      "correlation": 0.5854973504937054
+    },
+    {
+      "name": "redrama",
+      "group": 1,
+      "correlation": 0.8527947498595528
+    },
+    {
+      "name": "routemaster",
+      "group": 1,
+      "correlation": 0.562671117872812
+    },
+    {
+      "name": "ilse delange",
+      "group": 1,
+      "correlation": 0.3638310299429596
+    },
+    {
+      "name": "belarus-1",
+      "group": 1,
+      "correlation": 0.7932345902733278
+    },
+    {
+      "name": "2014 ukrainian revolution",
+      "group": 1,
+      "correlation": 0.08451068739713818
+    },
+    {
+      "name": "russia-1",
+      "group": 1,
+      "correlation": 0.8282139575571245
+    },
+    {
+      "name": "arabic language",
+      "group": 1,
+      "correlation": 0.04099556038638971
+    },
+    {
+      "name": "herreys",
+      "group": 1,
+      "correlation": 0.850387275664111
+    },
+    {
+      "name": "microstate",
+      "group": 1,
+      "correlation": 0.8486716662274407
+    },
+    {
+      "name": "teleradio-moldova",
+      "group": 1,
+      "correlation": 0.4532021256628723
+    },
+    {
+      "name": "pollapönk",
+      "group": 1,
+      "correlation": 0.911288048497826
+    },
+    {
+      "name": "nrk3",
+      "group": 1,
+      "correlation": 0.5000843868484839
+    },
+    {
+      "name": "eurovision song contest 2012",
+      "group": 1,
+      "correlation": 0.7223825363052663
+    },
+    {
+      "name": "eurovision song contest 2013",
+      "group": 1,
+      "correlation": 0.6737604560749095
+    },
+    {
+      "name": "eurovision song contest 2014",
+      "group": 0,
+      "correlation": 1.0000000000000002
+    },
+    {
+      "name": "einsplus",
+      "group": 1,
+      "correlation": 0.6285504713431913
+    },
+    {
+      "name": "rtcg",
+      "group": 1,
+      "correlation": 0.5190384897119231
+    },
+    {
+      "name": "gigantium",
+      "group": 1,
+      "correlation": 0.9107237183392787
+    },
+    {
+      "name": "riskykidd",
+      "group": 1,
+      "correlation": 0.8613164237209269
+    },
+    {
+      "name": "hashtag",
+      "group": 1,
+      "correlation": 0.4299714757082231
+    },
+    {
+      "name": "can-linn",
+      "group": 1,
+      "correlation": 0.7126432057826149
+    },
+    {
+      "name": "bvn",
+      "group": 1,
+      "correlation": 0.7745344082438681
+    },
+    {
+      "name": "rúv",
+      "group": 1,
+      "correlation": 0.8625014074903099
+    },
+    {
+      "name": "laura whitmore",
+      "group": 1,
+      "correlation": 0.24900470393799648
+    },
+    {
+      "name": "donatan",
+      "group": 1,
+      "correlation": 0.8746161915757881
+    },
+    {
+      "name": "savonlinna",
+      "group": 1,
+      "correlation": 0.12135029113155678
+    },
+    {
+      "name": "eurovision song contest",
+      "group": 1,
+      "correlation": 0.8620263587753623
+    },
+    {
+      "name": "horsens",
+      "group": 1,
+      "correlation": 0.38499739033705227
+    },
+    {
+      "name": "nrk",
+      "group": 1,
+      "correlation": 0.8308922151885035
+    },
+    {
+      "name": "rise like a phoenix",
+      "group": 1,
+      "correlation": 0.05565150841427163
+    },
+    {
+      "name": "1fltv",
+      "group": 1,
+      "correlation": 0.8698807033041397
+    },
+    {
+      "name": "softengine",
+      "group": 1,
+      "correlation": 0.9436184586663854
+    },
+    {
+      "name": "copenhagen",
+      "group": 1,
+      "correlation": 0.06966142812368545
+    },
+    {
+      "name": "conchita wurst",
+      "group": 1,
+      "correlation": 0.7818061137305015
+    },
+    {
+      "name": "ogae",
+      "group": 1,
+      "correlation": 0.8624089463358775
+    },
+    {
+      "name": "eén",
+      "group": 1,
+      "correlation": 0.022267158323030858
+    },
+    {
+      "name": "molly smitten-downes",
+      "group": 1,
+      "correlation": 0.8243597350851769
+    },
+    {
+      "name": "svt1",
+      "group": 1,
+      "correlation": 0.48265033458044215
+    },
+    {
+      "name": "tallinn",
+      "group": 1,
+      "correlation": 0.06884996128754935
+    },
+    {
+      "name": "tvp1",
+      "group": 1,
+      "correlation": 0.6963675664390859
+    },
+    {
+      "name": "bbc three",
+      "group": 1,
+      "correlation": 0.1539203827555459
+    }
+  ],
+  "links": [
+    {
+      "source": 20,
+      "target": 24,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 5,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 20,
+      "target": 35,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 20,
+      "target": 39,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 20,
+      "target": 46,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 20,
+      "target": 19,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 20,
+      "target": 32,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 23,
+      "correlationBin": 9.0
+    },
+    {
+      "source": 20,
+      "target": 34,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 27,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 20,
+      "target": 42,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 0,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 13,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 11,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 10,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 20,
+      "target": 12,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 20,
+      "target": 32,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 4,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 20,
+      "target": 22,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 20,
+      "target": 40,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 20,
+      "target": 33,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 20,
+      "target": 9,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 20,
+      "target": 44,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 20,
+      "target": 41,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 20,
+      "target": 32,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 30,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 19,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 20,
+      "target": 45,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "correlationBin": 6.0
+    },
+    {
+      "source": 20,
+      "target": 28,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 29,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 20,
+      "target": 18,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 20,
+      "target": 36,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 1,
+      "correlationBin": 9.0
+    },
+    {
+      "source": 20,
+      "target": 14,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 38,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 20,
+      "target": 26,
+      "correlationBin": 7.0
+    },
+    {
+      "source": 20,
+      "target": 15,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 20,
+      "target": 31,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 20,
+      "target": 43,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 20,
+      "target": 16,
+      "correlationBin": 9.0
+    },
+    {
+      "source": 20,
+      "target": 25,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 20,
+      "target": 7,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 20,
+      "target": 6,
+      "correlationBin": 8.0
+    },
+    {
+      "source": 20,
+      "target": 37,
+      "correlationBin": 9.0
+    },
+    {
+      "source": 20,
+      "target": 8,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 20,
+      "target": 3,
+      "correlationBin": 6.0
+    }
+  ]
+}

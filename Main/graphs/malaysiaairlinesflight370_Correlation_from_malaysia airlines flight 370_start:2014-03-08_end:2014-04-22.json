@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "name": "xinjiang",
+      "group": 1,
+      "correlation": 0.4938495607898434
+    },
+    {
+      "name": "interpol",
+      "group": 1,
+      "correlation": 0.12497826595435202
+    },
+    {
+      "name": "air-britain",
+      "group": 1,
+      "correlation": 0.4759256882603013
+    },
+    {
+      "name": "boeing 777",
+      "group": 1,
+      "correlation": 0.5728800156516788
+    },
+    {
+      "name": "sumatra",
+      "group": 1,
+      "correlation": 0.1430358226976682
+    },
+    {
+      "name": "indonesia",
+      "group": 1,
+      "correlation": 0.2063386427675802
+    },
+    {
+      "name": "nationalization",
+      "group": 1,
+      "correlation": 0.08214164204566603
+    },
+    {
+      "name": "air france flight 447",
+      "group": 1,
+      "correlation": 0.24726094483733912
+    },
+    {
+      "name": "ukraine",
+      "group": 1,
+      "correlation": 0.5213106849806167
+    },
+    {
+      "name": "egyptair",
+      "group": 1,
+      "correlation": 0.26384470633854074
+    },
+    {
+      "name": "renminbi",
+      "group": 1,
+      "correlation": 0.2082782847506564
+    },
+    {
+      "name": "radar",
+      "group": 1,
+      "correlation": 0.3447032383045117
+    },
+    {
+      "name": "handshaking",
+      "group": 1,
+      "correlation": 0.09113702898645709
+    },
+    {
+      "name": "malaysiakini",
+      "group": 1,
+      "correlation": 0.4205111753495658
+    },
+    {
+      "name": "the new york times",
+      "group": 1,
+      "correlation": 0.17518377304651145
+    },
+    {
+      "name": "airband",
+      "group": 1,
+      "correlation": 0.23879557928805678
+    },
+    {
+      "name": "allianz",
+      "group": 1,
+      "correlation": 0.028743704573026073
+    },
+    {
+      "name": "flightglobal",
+      "group": 1,
+      "correlation": 0.09685163457191302
+    },
+    {
+      "name": "malaysia airlines",
+      "group": 1,
+      "correlation": 0.4823630651279677
+    },
+    {
+      "name": "kuala lumpur",
+      "group": 1,
+      "correlation": 0.283170296025497
+    },
+    {
+      "name": "indian ocean",
+      "group": 1,
+      "correlation": 0.11699512558930565
+    },
+    {
+      "name": "penang",
+      "group": 1,
+      "correlation": 0.26502482382390863
+    },
+    {
+      "name": "waypoint",
+      "group": 1,
+      "correlation": 0.20100101369779727
+    },
+    {
+      "name": "malaysia",
+      "group": 1,
+      "correlation": 0.466462676164982
+    },
+    {
+      "name": "china",
+      "group": 1,
+      "correlation": 0.15216141876650047
+    },
+    {
+      "name": "inmarsat",
+      "group": 1,
+      "correlation": 0.045096616627057405
+    },
+    {
+      "name": "malaysia airlines flight 370",
+      "group": 0,
+      "correlation": 1.0000000000000002
+    }
+  ],
+  "links": [
+    {
+      "source": 26,
+      "target": 14,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 26,
+      "target": 10,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 24,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 26,
+      "target": 23,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 26,
+      "target": 18,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 26,
+      "target": 9,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 7,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 25,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 26,
+      "target": 5,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 21,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 0,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 26,
+      "target": 8,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 26,
+      "target": 13,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 26,
+      "target": 16,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 26,
+      "target": 4,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 26,
+      "target": 1,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 26,
+      "target": 15,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 11,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 26,
+      "target": 22,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 2,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 26,
+      "target": 20,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 26,
+      "target": 3,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 26,
+      "target": 19,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 26,
+      "target": 6,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 26,
+      "target": 12,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 26,
+      "target": 17,
+      "correlationBin": 0.0
+    }
+  ]
+}

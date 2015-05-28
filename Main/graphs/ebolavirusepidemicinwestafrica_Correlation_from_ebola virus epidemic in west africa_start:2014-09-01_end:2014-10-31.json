@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "name": "united nations",
+      "group": 1,
+      "correlation": 0.45014150096872085
+    },
+    {
+      "name": "sequencing",
+      "group": 1,
+      "correlation": 0.11359689870056881
+    },
+    {
+      "name": "ebola virus epidemic in west africa",
+      "group": 0,
+      "correlation": 1.0
+    },
+    {
+      "name": "dehydration",
+      "group": 1,
+      "correlation": 0.11111928112067364
+    },
+    {
+      "name": "triage",
+      "group": 1,
+      "correlation": 0.2654952124830172
+    },
+    {
+      "name": "west africa",
+      "group": 1,
+      "correlation": 0.3752935168022406
+    },
+    {
+      "name": "disinfectant",
+      "group": 1,
+      "correlation": 0.24617921109073512
+    },
+    {
+      "name": "duiker",
+      "group": 1,
+      "correlation": 0.29591758801872564
+    },
+    {
+      "name": "ebola virus disease",
+      "group": 1,
+      "correlation": 0.5368108971402455
+    },
+    {
+      "name": "zoonosis",
+      "group": 1,
+      "correlation": 0.2662562859202375
+    },
+    {
+      "name": "democratic republic of the congo",
+      "group": 1,
+      "correlation": 0.4587642080271682
+    },
+    {
+      "name": "centers for disease control and prevention",
+      "group": 1,
+      "correlation": 0.255924527207985
+    },
+    {
+      "name": "cubans",
+      "group": 1,
+      "correlation": 0.16450535362262023
+    },
+    {
+      "name": "spain",
+      "group": 1,
+      "correlation": 0.35798445091498005
+    },
+    {
+      "name": "fever",
+      "group": 1,
+      "correlation": 0.15284367136114269
+    },
+    {
+      "name": "habitability",
+      "group": 1,
+      "correlation": 0.1344442040614701
+    },
+    {
+      "name": "sanitation",
+      "group": 1,
+      "correlation": 0.32042449076672935
+    },
+    {
+      "name": "lunsar",
+      "group": 1,
+      "correlation": 0.1576566860170818
+    },
+    {
+      "name": "allafrica.com",
+      "group": 1,
+      "correlation": 0.07259905518174742
+    },
+    {
+      "name": "poliomyelitis",
+      "group": 1,
+      "correlation": 0.04202098240957262
+    },
+    {
+      "name": "imam",
+      "group": 1,
+      "correlation": 0.07467138008107473
+    },
+    {
+      "name": "nigeria",
+      "group": 1,
+      "correlation": 0.22945946006626178
+    },
+    {
+      "name": "liberia",
+      "group": 1,
+      "correlation": 0.41427888865099116
+    },
+    {
+      "name": "frankfurt",
+      "group": 1,
+      "correlation": 0.2461733298915166
+    },
+    {
+      "name": "genome",
+      "group": 1,
+      "correlation": 0.01870812532005435
+    },
+    {
+      "name": "london heathrow airport",
+      "group": 1,
+      "correlation": 0.21481973881834932
+    },
+    {
+      "name": "myalgia",
+      "group": 1,
+      "correlation": 0.1356269031082882
+    },
+    {
+      "name": "macenta",
+      "group": 1,
+      "correlation": 0.15764107471490094
+    },
+    {
+      "name": "world health organization",
+      "group": 1,
+      "correlation": 0.5710279388482127
+    },
+    {
+      "name": "hypovolemia",
+      "group": 1,
+      "correlation": 0.09643737305461401
+    },
+    {
+      "name": "rome",
+      "group": 1,
+      "correlation": 0.1481155084181914
+    },
+    {
+      "name": "clinical trial",
+      "group": 1,
+      "correlation": 0.37222780245930137
+    },
+    {
+      "name": "freetown",
+      "group": 1,
+      "correlation": 0.11497609022501305
+    },
+    {
+      "name": "epidemic",
+      "group": 1,
+      "correlation": 0.18558204613873552
+    },
+    {
+      "name": "netherlands",
+      "group": 1,
+      "correlation": 0.10349267574323796
+    },
+    {
+      "name": "diarrhea",
+      "group": 1,
+      "correlation": 0.0010720140938895854
+    },
+    {
+      "name": "nausea",
+      "group": 1,
+      "correlation": 0.06446506941079877
+    },
+    {
+      "name": "elisa",
+      "group": 1,
+      "correlation": 0.08811648573082763
+    },
+    {
+      "name": "unicef",
+      "group": 1,
+      "correlation": 0.07768043940362836
+    },
+    {
+      "name": "kenema",
+      "group": 1,
+      "correlation": 0.03179988529453218
+    },
+    {
+      "name": "boeing c-17 globemaster iii",
+      "group": 1,
+      "correlation": 0.2922578005402334
+    },
+    {
+      "name": "electrolyte",
+      "group": 1,
+      "correlation": 0.1929547959143709
+    },
+    {
+      "name": "monrovia",
+      "group": 1,
+      "correlation": 0.3023645875981287
+    },
+    {
+      "name": "womey",
+      "group": 1,
+      "correlation": 0.26328311456352094
+    },
+    {
+      "name": "arthralgia",
+      "group": 1,
+      "correlation": 0.040003790397590056
+    },
+    {
+      "name": "epidemiology",
+      "group": 1,
+      "correlation": 0.07834252901431135
+    },
+    {
+      "name": "ebolavirus",
+      "group": 1,
+      "correlation": 0.11189882752331172
+    },
+    {
+      "name": "sierra leone",
+      "group": 1,
+      "correlation": 0.31854061677574613
+    },
+    {
+      "name": "delirium",
+      "group": 1,
+      "correlation": 0.11948389565257948
+    },
+    {
+      "name": "zmapp",
+      "group": 1,
+      "correlation": 0.10253010212125496
+    },
+    {
+      "name": "lagos",
+      "group": 1,
+      "correlation": 0.06641136649690413
+    },
+    {
+      "name": "sub-saharan africa",
+      "group": 1,
+      "correlation": 0.1915523300496693
+    }
+  ],
+  "links": [
+    {
+      "source": 2,
+      "target": 18,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 16,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 2,
+      "target": 9,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 22,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 2,
+      "target": 31,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 2,
+      "target": 44,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 47,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 2,
+      "target": 34,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 27,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 10,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 2,
+      "target": 17,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 28,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 2,
+      "target": 32,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 41,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 50,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 45,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 23,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 29,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 21,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 33,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 14,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 13,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 2,
+      "target": 28,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 2,
+      "target": 49,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 15,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 46,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 2,
+      "target": 20,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 40,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 43,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 12,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 51,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 37,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 39,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 19,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 28,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 2,
+      "target": 38,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 35,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 25,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 48,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 24,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 42,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 30,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 26,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "correlationBin": 5.0
+    },
+    {
+      "source": 2,
+      "target": 36,
+      "correlationBin": 0.0
+    }
+  ]
+}

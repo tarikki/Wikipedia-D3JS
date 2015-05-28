@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "name": "flare",
+      "group": 1,
+      "correlation": 0.16646534627091206
+    },
+    {
+      "name": "manslaughter",
+      "group": 1,
+      "correlation": 0.32091035869805173
+    },
+    {
+      "name": "bbc",
+      "group": 1,
+      "correlation": 0.3497685050540995
+    },
+    {
+      "name": "vietnam",
+      "group": 1,
+      "correlation": 0.1150960448329942
+    },
+    {
+      "name": "underwater",
+      "group": 1,
+      "correlation": 0.010473122200507024
+    },
+    {
+      "name": "latitude",
+      "group": 1,
+      "correlation": 0.19771788526031037
+    },
+    {
+      "name": "thomson reuters",
+      "group": 1,
+      "correlation": 0.20949501342226062
+    },
+    {
+      "name": "temperature",
+      "group": 1,
+      "correlation": 0.20835587031099867
+    },
+    {
+      "name": "gyroscope",
+      "group": 1,
+      "correlation": 0.20864917512757672
+    },
+    {
+      "name": "hypothermia",
+      "group": 1,
+      "correlation": 0.3510322775401839
+    },
+    {
+      "name": "gwangju",
+      "group": 1,
+      "correlation": 0.19852825520792292
+    },
+    {
+      "name": "helmsman",
+      "group": 1,
+      "correlation": 0.3518227187359917
+    },
+    {
+      "name": "negligence",
+      "group": 1,
+      "correlation": 0.2354029112416232
+    },
+    {
+      "name": "ytn",
+      "group": 1,
+      "correlation": 0.18748775231239073
+    },
+    {
+      "name": "korea",
+      "group": 1,
+      "correlation": 0.0878497036007586
+    },
+    {
+      "name": "engine",
+      "group": 1,
+      "correlation": 0.23927172391343302
+    },
+    {
+      "name": "intercom",
+      "group": 1,
+      "correlation": 0.17872849357369636
+    },
+    {
+      "name": "xinhua news agency",
+      "group": 1,
+      "correlation": 0.16631725410343864
+    },
+    {
+      "name": "jeju province",
+      "group": 1,
+      "correlation": 0.1398483435936803
+    },
+    {
+      "name": "sinking of the mv sewol",
+      "group": 0,
+      "correlation": 1.0000000000000002
+    },
+    {
+      "name": "kakaotalk",
+      "group": 1,
+      "correlation": 0.30355126850277586
+    },
+    {
+      "name": "ansan",
+      "group": 1,
+      "correlation": 0.21947206444978484
+    },
+    {
+      "name": "restoring force",
+      "group": 1,
+      "correlation": 0.02056267899952807
+    },
+    {
+      "name": "byeongpungdo",
+      "group": 1,
+      "correlation": 0.287670236565903
+    },
+    {
+      "name": "nbc",
+      "group": 1,
+      "correlation": 0.12208767140681717
+    },
+    {
+      "name": "list of maritime disasters",
+      "group": 1,
+      "correlation": 0.3488876622412971
+    },
+    {
+      "name": "hanja",
+      "group": 1,
+      "correlation": 0.3087724132590754
+    },
+    {
+      "name": "singapore",
+      "group": 1,
+      "correlation": 0.2502996216922534
+    },
+    {
+      "name": "radar",
+      "group": 1,
+      "correlation": 0.3712135475098264
+    },
+    {
+      "name": "barack obama",
+      "group": 1,
+      "correlation": 0.22512469400121488
+    },
+    {
+      "name": "homicide",
+      "group": 1,
+      "correlation": 0.24026990761706124
+    },
+    {
+      "name": "magnolia",
+      "group": 1,
+      "correlation": 0.2629783132239773
+    },
+    {
+      "name": "reuters",
+      "group": 1,
+      "correlation": 0.4215400828759601
+    },
+    {
+      "name": "longitude",
+      "group": 1,
+      "correlation": 0.08615914503277233
+    },
+    {
+      "name": "yonhap",
+      "group": 1,
+      "correlation": 0.3135248913690855
+    },
+    {
+      "name": "incheon",
+      "group": 1,
+      "correlation": 0.20331139716961227
+    },
+    {
+      "name": "ballast",
+      "group": 1,
+      "correlation": 0.02265311952130892
+    },
+    {
+      "name": "white house",
+      "group": 1,
+      "correlation": 0.2690847550959289
+    }
+  ],
+  "links": [
+    {
+      "source": 19,
+      "target": 2,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 35,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 11,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 21,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 25,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 10,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 37,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 30,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 15,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 36,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 19,
+      "target": 26,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 33,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 19,
+      "target": 7,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 20,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 5,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 1,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 6,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 16,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 29,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 31,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 34,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 0,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 28,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 34,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 9,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 13,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 11,
+      "correlationBin": 3.0
+    },
+    {
+      "source": 19,
+      "target": 12,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 22,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 19,
+      "target": 14,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 19,
+      "target": 4,
+      "correlationBin": 0.0
+    },
+    {
+      "source": 19,
+      "target": 24,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 3,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 8,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 27,
+      "correlationBin": 2.0
+    },
+    {
+      "source": 19,
+      "target": 17,
+      "correlationBin": 1.0
+    },
+    {
+      "source": 19,
+      "target": 32,
+      "correlationBin": 4.0
+    },
+    {
+      "source": 19,
+      "target": 18,
+      "correlationBin": 1.0
+    }
+  ]
+}
