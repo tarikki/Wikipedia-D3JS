@@ -56,6 +56,7 @@
 <div class="mainDiv" id="mainDiv">
     <div class="info" id="info">Yolo tuub <br/>
 
+        <div align="center"><img id="left" src="larrow.png" alt=""/><img id="right" src="rarrow.png" alt=""/></div>
     </div>
     <div class="graph_div" id="graph_div"></div>
 </div>
@@ -73,7 +74,6 @@
 
     info_div = document.getElementById('info');
     info_div.style.height = height;
-
 
 
     var graph_width = window.innerWidth - info_width - 10;
@@ -96,15 +96,15 @@
             .size([graph_width, height]);
 
     var svg = d3.select("#graph_div").append("svg")
-            .attr("width", graph_width *.9)
-            .attr("height", height *.9);
+            .attr("width", graph_width * .9)
+            .attr("height", height * .9);
 
     var article_name = "2014 Winter Olympics";
     var start_date = "2014-01-02";
     var end_date = "2014-03-31";
-    var displayable_text = "<br>"+ "Main Article:\t "+article_name + "<br>"+ "Scan start: " + start_date + "<br>"+"Scan end: " + end_date + "<br>"+"<br>" ;
+    var displayable_text = "<br>" + "Main Article:\t " + article_name + "<br>" + "Scan start: " + start_date + "<br>" + "Scan end: " + end_date + "<br>" + "<br>";
 
-//    info_div.innerHTML = displayable_text;
+    //    info_div.innerHTML = displayable_text;
 
     d3.json("graphs/2014fifaworldcup_Correlation_from_2014 fifa world cup_start:2014-06-01_end:2014-07-21.json", function (error, graph) {
         force
@@ -144,8 +144,8 @@
                 .text(function (d) {
                     return d.name
                 });
-        displayable_text += "Nodes: " + node.size() +"<br>";
-        displayable_text += "Links: " + link.size() +"<br>"+"<br>";
+        displayable_text += "Nodes: " + node.size() + "<br>";
+        displayable_text += "Links: " + link.size() + "<br>" + "<br>";
         info_div.innerHTML = displayable_text;
         force.on("tick", function () {
             link.attr("x1", function (d) {

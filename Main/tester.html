@@ -1,27 +1,278 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
+<meta charset="utf-8">
+<style>
+
+    /*.node {*/
+    /*stroke: #fff;*/
+    /*stroke-width: 1.5px;*/
+    /*}*/
+
+    .node text {
+        /*pointer-events: none;*/
+        font: 10px sans-serif;
+    }
+
+    .link {
+        stroke: #999;
+        stroke-opacity: .6;
+    }
+
+    .mainDiv {
+        /*display: inline-block;*/
+
+    }
+
+    .info {
+        /*margin-left: 100px;*/
+        position: absolute;
+        /*display: inline-block;*/
+        width: auto;
+        min-width: 300px;
+        top: 40px;
+        bottom: 40px;
+        vertical-align: top;
+        max-width: 300px;
+        border: dotted;
+        /*float: left;*/
+    }
+
+    .graph_div {
+        /*display: inline-block;*/
+        vertical-align: top;
+        overflow: hidden;
+        float: right;
+    }
+
+
+</style>
+
+<!--<g class="node" transform="translate(130,492)">-->
+<!--<circle r="4.5"/>-->
+<!--<text dx="12" dy=".35em">Gavroche</text>-->
+<!--</g>-->
+
+
 <body>
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<div class="mainDiv" id="mainDiv">
+    <div class="info" id="info">Yolo tuub <br/>
+        <div align="center"><img id="left" src="larrow.png" alt=""/><img id="right" src="rarrow.png" alt=""/></div>
+        <div class="info_small" id="info_small"></div>
+
+    </div>
+    <div class="graph_div" id="graph_div"></div>
+</div>
+<script src="../d3js/d3.min.js"></script>
 <script>
-    var fileName = "log.json";
-    var simpleLog;
-    var doSomething = function(errors, data){
-        console.log(data.simpleLogs)
-        for (simpleLog in data.simpleLogs){
-            var current = data.simpleLogs[simpleLog]
-            console.log(current.articleName)
-            console.log(current.start)
-            console.log(current.end)
+
+    var article_name = "2014 Winter Olympics";
+    var start_date = "2014-01-02";
+    var end_date = "2014-03-31";
+    var displayable_text = "<br>" + "Main Article:\t " + article_name + "<br>" + "Scan start: " + start_date + "<br>" + "Scan end: " + end_date + "<br>" + "<br>";
+
+    window.onload = init;
+    var fileNames = [];
+    var current = 0;
+    function init() {
+        window.onkeyup = function (e) {
+            var key = e.keyCode;// ? e.keyCode : e.which;
+
+            if (key == 37) {
+                scroll(-1);
+            } else if (key == 39) {
+                scroll(1);
+            }
+        };
+
+
+        document.getElementById("left").onclick = left;
+        document.getElementById("right").onclick = right;
+        d3.json("log.json", doSomething)
+
+
+    }
+
+
+    function left() {
+        scroll(-1)
+    }
+
+    function right() {
+        scroll(1)
+    }
+
+    function scroll(direction) {
+        current = current + direction;
+        if (current < 0) {
+            current = fileNames.length - 1;
 
         }
 
-    };
-    var file = d3.json(fileName, doSomething);
+        if (current > (fileNames.length - 1)) {
+            current = 0;
+        }
+        update();
+    }
 
+    function update() {
+        svg.selectAll("*").remove()
+        var currentArticle = fileNames[current];
+        article_name = currentArticle.articleName;
+        start_date = (currentArticle.start);
+        end_date = (currentArticle.end);
+        displayable_text = "<br>"+ "Main Article:\t "+article_name + "<br>"+ "Scan start: " + start_date + "<br>"+"Scan end: " + end_date + "<br>"+"<br>" ;
+        info_div.innerHTML = displayable_text;
+        console.log(currentArticle.articleName);
+        console.log(fileNames[current]);
+        d3.json(files[current], function (error, graph) {
+            force
+                    .nodes(graph.nodes)
+                    .links(graph.links)
+                    .start();
+
+            var link = svg.selectAll(".link")
+                    .data(graph.links)
+                    .enter().append("line")
+                    .attr("class", "link")
+                    .style("fill", color(10))
+                    .style("stroke-width", 1);
+
+            var node = svg.selectAll(".node")
+                    .data(graph.nodes)
+                    .enter().append("g")
+                    .attr("class", "node")
+                    .call(force.drag);
+
+            node.append("circle")
+                    .attr("r", function (d) {
+                        return 15 - d.group * 5
+                    })
+                    .style("fill", function (d) {
+                        return color(Math.floor(d.correlation * 10));
+                    });
+
+            node.append("title")
+                    .text(function (d) {
+                        return d.name + " \n" + "Correlation: " + d.correlation.toFixed(2);
+                    });
+
+            node.append("text")
+                    .attr("dx", 12)
+                    .attr("dy", ".35em")
+                    .text(function (d) {
+                        return d.name
+                    });
+            displayable_text += "Nodes: " + node.size() +"<br>";
+            displayable_text += "Links: " + link.size() +"<br>"+"<br>";
+            info_div.innerHTML = displayable_text;
+            force.on("tick", function () {
+                link.attr("x1", function (d) {
+                    return d.source.x;
+                })
+                        .attr("y1", function (d) {
+                            return d.source.y;
+                        })
+                        .attr("x2", function (d) {
+                            return d.target.x;
+                        })
+                        .attr("y2", function (d) {
+                            return d.target.y;
+                        });
+
+                node.attr("transform", function (d) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+            });
+        })
+
+    }
+
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+    document.getElementById('mainDiv').style.width = width;
+    document.getElementById('mainDiv').style.height = height;
+
+    var info_width = 300;
+
+    //    document.getElementById('info').style.width = info_width;
+
+    info_div = document.getElementById('info_small');
+    info_div.style.height = height;
+
+
+    var graph_width = window.innerWidth - info_width - 10;
+
+    var graph_div = document.getElementById('graph_div');
+
+    graph_div.style.width = graph_width;
+    graph_div.style.height = height;
+    //    graph_div.style.position = "absolute"
+
+
+    var color = d3.scale.category20();
+
+    var force = d3.layout.force()
+            .charge(-300)
+            .linkDistance(function (d) {
+                return 400 - (d.correlationBin) * 40;
+            })
+            .chargeDistance(600)
+            .size([graph_width, height]);
+
+    var svg = d3.select("#graph_div").append("svg")
+            .attr("width", graph_width * .9)
+            .attr("height", height * .9);
+
+    var files = ["graphs/2014winterolympics_Correlation_from_2014 winter olympics_start:2014-02-01_end:2014-03-04.json",
+        "graphs/ebolavirusepidemicinwestafrica_Correlation_from_ebola virus epidemic in west africa_start:2014-09-01_end:2014-10-31.json",
+        "graphs/2014fifaworldcup_Correlation_from_2014 fifa world cup_start:2014-06-01_end:2014-07-21.json",
+
+        "graphs/eurovisionsongcontest2014_Correlation_from_eurovision song contest 2014_start:2014-05-01_end:2014-05-17.json",
+        "graphs/malaysiaairlinesflight370_Correlation_from_malaysia airlines flight 370_start:2014-03-08_end:2014-04-22.json",
+        "graphs/sinkingofthemvsewol_Correlation_from_sinking of the mv sewol_start:2014-04-22_end:2014-05-25.json",
+        "graphs/malaysiaairlinesflight17_Correlation_from_malaysia airlines flight 17_start:2014-07-17_end:2014-08-31.json"];
+
+    var fileName = "log.json";
+    var simpleLog;
+    var theFile;
+    var doSomething = function (errors, data) {
+//        console.log(data.simpleLogs);
+//        theFile = data.simpleLogs;
+        for (var simpleLog = 0; simpleLog < data.simpleLogs.length; simpleLog++) {
+            var current = data.simpleLogs[simpleLog];
+            fileNames.push(current);
+            console.log(current.articleName);
+            console.log(current.start);
+            console.log(current.end);
+
+        }
+        return data.simpleLogs
+
+
+    };
+
+    for (i in files) {
+        console.log(files[i])
+    }
+
+
+    //    var wrapper = function(){
+    //      var deferred = $.Deferred()
+    //
+    //    };
+    //    theFile = d3.json();
+
+    //    theFile.then(console.log(theFile))
+    //    var now = new Date().getTime()
+    //    while(new Date().getTime() < now+2000){
+    ////        nothign to do
+    //    }
+    console.log("dikke");
+    //    for (var simpleLog1 = 0; simpleLog1 < theFile.length; simpleLog1++) {
+    //        var current = theFile[simpleLog1];
+    //        console.log(current.articleName);
+    //        console.log(current.start);
+    //        console.log(current.end)
+    //
+    //    }
 </script>
 </body>
-</html>
