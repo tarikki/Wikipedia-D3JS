@@ -1,10 +1,6 @@
 {
   "simpleLogs": [
-    {
-      "articleName": "2014 winter olympics",
-      "start": "2014-02-01",
-      "end": "2014-03-04"
-    },
+
     {
       "articleName": "ebola virus epidemic in west africa",
       "start": "2014-09-01",
@@ -34,6 +30,16 @@
       "articleName": "malaysia airlines flight 17",
       "start": "2014-07-17",
       "end": "2014-08-31"
+    },
+    {
+      "articleName": "2014 winter olympics",
+      "start": "2014-02-01",
+      "end": "2014-03-04"
+    },
+    {
+      "articleName": "2014 winter olympics ALL NODES",
+      "start": "2014-02-01",
+      "end": "2014-03-04"
     }
   ]
 }
